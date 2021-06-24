@@ -43,3 +43,35 @@ p {
 	text-align: justify;
 	color: white;
 }
+nav {
+	display: block;
+	background-color: #99ccff;
+	overflow: hidden;
+	text-shadow: 1px 1px 1px white;
+	border-radius: 5px;
+	margin-bottom: 5%;
+}
+
+nav a {
+	float: left;
+	color: blue;
+	padding: 15px 20px;
+	text-decoration: none;
+	border: 0.5px solid black;
+	border-radius: 2px;
+}
+
+nav a:hover {
+	background-color: black;
+	color: white;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	float: left;
+}
